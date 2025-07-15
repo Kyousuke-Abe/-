@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>わたしのポートフォリオ</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    .skills, .works {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills div, .works div {
+      background-color: #333;
+      padding: 10px;
+      border-radius: 8px;
+      flex: 1 1 150px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e1e1e;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: #4fc3f7;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>わたしの名前</h1>
+    <p>Webデザイナー / フロントエンドエンジニア</p>
+  </header>
+
+  <section>
+    <h2>自己紹介</h2>
+    <p>こんにちは！私はWeb制作が大好きなクリエイターです。シンプルで使いやすいデザインを心がけています。</p>
+
+    <h2>スキル</h2>
+    <div class="skills">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>Photoshop</div>
+    </div>
+
+    <h2>作品</h2>
+    <div class="works">
+      <div>
+        <p>作品①</p>
+        <a href="#">見る</a>
+      </div>
+      <div>
+        <p>作品②</p>
+        <a href="#">見る</a>
+      </div>
+    </div>
+
+    <h2>お問い合わせ</h2>
+    <p>お仕事のご相談などは、<a href="mailto:your.email@example.com">メール</a>でお気軽にどうぞ！</p>
+  </section>
+
+  <footer>
+    © 2025 わたしの名前
+  </footer>
+
+</body>
+</html>
